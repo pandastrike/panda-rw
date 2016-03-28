@@ -1,0 +1,31 @@
+{
+  "name": "panda-rw",
+  "version": "0.0.1-beta-01",
+  "description": "Effortlessly Read and Write Data Files",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/*.*coffee",
+    "test": "coffee test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandastrike/panda-rw.git"
+  },
+  "keywords": [
+    "YAML",
+    "JSON",
+    "config"
+  ],
+  "author": "David Harper (david@pandastrike.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandastrike/panda-rw/issues"
+  },
+  "homepage": "https://github.com/pandastrike/panda-rw#readme",
+  "dependencies": {
+    "amen": "0.0.1",
+    "fairmont": "^1.0.0-beta-40",
+    "js-yaml": "^3.5.5",
+    "mime": "^1.3.4"
+  }
+}
